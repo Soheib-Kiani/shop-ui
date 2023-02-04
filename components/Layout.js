@@ -11,15 +11,18 @@ export default function Layout({ title, children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-screen flex-col justify-between ">
+      <div className="  flex min-h-screen flex-col justify-between ">
         <header>
           {/* Header */}
-          <nav className="flex gap-x-6 lg:gap-x-0  h-24 border-b items-center px-8 lg:px-16  justify-between ">
+          <nav className="flex gap-x-6 lg:gap-x-0  h-24 border-b items-center px-2 md:px-16  justify-between ">
             {/* Header Icons */}
             <div className="flex gap-x-1 md:gap-x-3 lg:gap-x-4 ">
               <div className="flex justify-center text-center items-center border border-gray-700 rounded-lg lg:p-1 hover:font-semibold ">
                 <img className="w-6 h-6" src="/icon/buy.png" alt="buy-logo" />
-                <Link className=" text-[10px] w-16 md:p-2 lg:text-sm lg:p-1 " href="/">
+                <Link
+                  className=" text-[10px] w-16 md:p-2 lg:w-auto lg:h-auto  lg:text-sm lg:p-1 "
+                  href="/"
+                >
                   سبد خرید
                 </Link>
               </div>
@@ -29,7 +32,10 @@ export default function Layout({ title, children }) {
                   src="/icon/profile.png"
                   alt="but-logo"
                 />
-                <Link className="text-[10px] w-20 lg:text-sm lg:p-1" href="/">
+                <Link
+                  className="text-[10px] w-20 lg:w-auto lg:h-auto lg:text-sm lg:p-1"
+                  href="/"
+                >
                   ورود/ثبت نام
                 </Link>
               </div>
@@ -67,63 +73,65 @@ export default function Layout({ title, children }) {
             </div>
           </nav>
           {/* Filter Header */}
-          <nav className=" h-9 flex items-center  border-b text-sm">
-            <div className="flex w-full justify-between items-center px-64">
-              <div className="w-auto gap-x-1 flex cursor-pointer ">
-                <div>ثبت فروشگاه</div>
-                <div className="">
-                  <img
-                    src="/icon/store.png"
-                    alt="store-icon"
-                    className="w-6 h-6"
-                  />
+          <nav className=" h-0  flex items-center text-sm  lg:border-b lg:h-9 ">
+            <div className="hidden w-full lg:block">
+              <div className="flex w-full justify-between items-center lg:px-64">
+                <div className="w-auto gap-x-1 flex cursor-pointer text-center text-gray-600 hover:text-black ">
+                  <div>ثبت فروشگاه</div>
+                  <div className="">
+                    <img
+                      src="/icon/store.png"
+                      alt="store-icon"
+                      className="w-6 h-6"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="w-auto gap-x-1 flex cursor-pointer">
-                <div>پیشنهادی ها</div>
-                <div>
-                  <img
-                    src="/icon/suggest.png"
-                    alt="store-icon"
-                    className="w-6 h-6"
-                  />
+                <div className="w-auto gap-x-1 flex cursor-pointer text-center text-gray-600 hover:text-black">
+                  <div>پیشنهادی ها</div>
+                  <div>
+                    <img
+                      src="/icon/suggest.png"
+                      alt="store-icon"
+                      className="w-6 h-6"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="w-auto gap-x-1 flex cursor-pointer">
-                <div>تخفیفات ویژه</div>
-                <div>
-                  <img
-                    src="/icon/discount.png"
-                    alt="store-icon"
-                    className="w-6 h-6"
-                  />
+                <div className="w-auto gap-x-1 flex cursor-pointer text-center text-gray-600 hover:text-black">
+                  <div>تخفیفات ویژه</div>
+                  <div>
+                    <img
+                      src="/icon/discount.png"
+                      alt="store-icon"
+                      className="w-6 h-6"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="w-auto gap-x-1 flex cursor-pointer">
-                <div>پرفروش ها</div>
-                <div>
-                  <img
-                    src="/icon/fire.png"
-                    alt="store-icon"
-                    className="w-6 h-6"
-                  />
+                <div className="w-auto gap-x-1 flex cursor-pointer text-center text-gray-600 hover:text-black">
+                  <div>پرفروش ها</div>
+                  <div>
+                    <img
+                      src="/icon/fire.png"
+                      alt="store-icon"
+                      className="w-6 h-6"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="w-auto gap-x-1 flex cursor-pointer">
-                <div>دسته بندی کالا ها</div>
-                <div>
-                  <img
-                    src="/icon/list.png"
-                    alt="store-icon"
-                    className="w-6 h-6"
-                  />
+                <div className="w-auto gap-x-1 flex cursor-pointer text-center text-gray-600 hover:text-black">
+                  <div>دسته بندی کالا ها</div>
+                  <div>
+                    <img
+                      src="/icon/list.png"
+                      alt="store-icon"
+                      className="w-6 h-6"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </nav>
         </header>
         {/* Body */}
-        <main className="container m-auto mt-4 px-4">{children}</main>
+        <main className="container  m-auto mt-4 px-4">{children}</main>
         {/* Footer */}
         <footer className="flex h-10 justify-center items-center shadow-inner">
           <p>Copyright © 2023 IO-TEAM</p>
