@@ -48,6 +48,7 @@ export default function Layout({ title, children }) {
                   <div>
                     <input
                       dir="rtl"
+                      id=""
                       type="text"
                       className="placeholder-gray-600 pb-2 pr-7 bg-gray-200 border border-gray-300 text-gray-900 text-base rounded-lg   w-full pl-28 p-1.5 "
                       placeholder="جست و جو"
