@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -73,7 +74,7 @@ export default function Layout({ title, children }) {
             </div>
           </nav>
           {/* Filter Header */}
-          <nav className=" h-0  flex items-center text-sm  lg:border-b lg:h-9 ">
+          <nav className=" h-0 flex items-center text-sm  lg:border-b lg:h-9 ">
             <div className="hidden w-full lg:block">
               <div className="flex w-full justify-between items-center lg:px-64">
                 <div className="w-auto gap-x-1 flex cursor-pointer text-center text-gray-600 hover:text-black ">
@@ -131,9 +132,9 @@ export default function Layout({ title, children }) {
           </nav>
         </header>
         {/* Body */}
-        <main className="container  m-auto mt-4 px-4">{children}</main>
+        <main className="container flex-grow ">{children}</main>
         {/* Footer */}
-        <footer className="flex h-10 justify-center items-center shadow-inner">
+        <footer className="flex bg-red-500 bottom-0 h-10 justify-center items-center shadow-inner">
           <p>Copyright © 2023 IO-TEAM</p>
         </footer>
       </div>
