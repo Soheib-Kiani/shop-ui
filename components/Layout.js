@@ -132,7 +132,7 @@ export default function Layout({ title, children }) {
           </nav>
         </header>
         {/* Body */}
-        <main className="container flex-grow ">{children}</main>
+        <main className=" flex-grow ">{children}</main>
         {/* Footer */}
         <footer className="flex bg-red-500 bottom-0 h-10 justify-center items-center shadow-inner">
           <p>Copyright © 2023 IO-TEAM</p>
