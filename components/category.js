@@ -4,7 +4,7 @@ import Image from 'next/image';
 const category = () => {
   return (
     <section className="grid grid-cols-5 place-items-center max-w-7xl mt-1 m-auto">
-      <div className="w-14 h-1w-14 md:w-24 md:h-24  text-center rounded-lg ">
+      <div className="w-14 h-14 md:w-24 md:h-24  text-center rounded-lg ">
         <div className="w-full h-3/4 rounded-t-lg ">
           <Image
             width={100}
@@ -17,7 +17,7 @@ const category = () => {
         </div>
         <div>cat1</div>
       </div>
-      <div className="w-14 h-1w-14 md:w-24 md:h-24  rounded-lg text-center ">
+      <div className="w-14 h-14 md:w-24 md:h-24  rounded-lg text-center ">
         <div className="w-full h-3/4 rounded-t-lg ">
           <Image
             width={100}
@@ -29,7 +29,7 @@ const category = () => {
         </div>
         <div>cat2</div>
       </div>
-      <div className="w-14 h-1w-14 md:w-24 md:h-24  rounded-lg text-center ">
+      <div className="w-14 h-14 md:w-24 md:h-24  rounded-lg text-center ">
         <div className="w-full h-3/4 rounded-t-lg ">
           <Image
             width={100}
@@ -41,7 +41,7 @@ const category = () => {
         </div>
         <div>cat 3</div>
       </div>
-      <div className="w-14 h-1w-14 md:w-24 md:h-24  rounded-lg text-center ">
+      <div className="w-14 h-14 md:w-24 md:h-24  rounded-lg text-center ">
         <div className="w-full h-3/4 rounded-t-lg ">
           <Image
             width={100}
@@ -53,7 +53,7 @@ const category = () => {
         </div>
         <div>cat 4</div>
       </div>
-      <div className="w-14 h-1w-14 md:w-24 md:h-24  rounded-lg text-center ">
+      <div className="w-14 h-14 md:w-24 md:h-24  rounded-lg text-center ">
         <div className="w-full h-3/4 rounded-t-lg ">
           <Image
             width={100}
