@@ -3,9 +3,9 @@ import Image from 'next/image';
 const brand = () => {
   return (
     <section>
-      <p className=' mt-4 grid place-items-center text-xs font-semibold'>محبوب ترین برند ها</p>
-      <div className="w-full h-auto  shadow-md rounded-xl flex items-center justify-between px-5 ">
-        <div className="w-14 h-14 grid place-items-center object-fit text-center">
+      <p className=' mt-4 grid place-items-center text-xs md:text-base lg:text-xl font-semibold'>محبوب ترین برند ها</p>
+      <div className="w-full h-auto  shadow-xl drop-shadow-[0_0px_10px_rgba(0,0,0,0.25)] rounded-xl flex items-center justify-between px-5 lg:px-16 ">
+        <div className="w-14 h-14  md:w-24 md:h-24 grid place-items-center object-fit text-center">
           <Image
             width={100}
             height={100}
@@ -14,7 +14,7 @@ const brand = () => {
             src={'/photo/brand1.png'}
           />
         </div>
-        <div className="w-14 h-14 grid place-items-center  text-center">
+        <div className="w-14 h-14 md:w-24 md:h-24 grid place-items-center  text-center">
           <Image
             width={100}
             height={100}
@@ -23,7 +23,7 @@ const brand = () => {
             src={'/photo/brand2.png'}
           />
         </div>
-        <div className="w-14 h-14  grid place-items-center text-center">
+        <div className="w-14 h-14 md:w-24 md:h-24  grid place-items-center text-center">
           <Image
             width={100}
             height={100}
@@ -32,7 +32,7 @@ const brand = () => {
             src={'/photo/brand3.png'}
           />
         </div>
-        <div className="w-14 h-14 grid place-items-center  text-center">
+        <div className="w-14 h-14 md:w-24 md:h-24 grid place-items-center  text-center">
           <Image
             width={100}
             height={100}
