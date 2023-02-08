@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const brand = () => {
   return (
-    <section className="">
+    <section className="max-w-sm md:max-w-2xl lg:max-w-7xl m-auto">
       <p className=" mt-4 grid place-items-center    text-xs md:text-base lg:text-xl font-semibold">
         محبوب ترین برند ها
       </p>

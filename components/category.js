@@ -3,7 +3,7 @@ import Image from 'next/image';
 /* eslint-disable @next/next/no-img-element */
 const category = () => {
   return (
-    <section className="grid mt-1 grid-cols-5 place-items-center max-w-7xl m-auto">
+    <section className="grid mt-1 grid-cols-5 place-items-center max-w-sm md:max-w-2xl lg:max-w-7xl m-auto">
       <div className="w-16 h-20  md:w-24 md:h-24 lg:h-32 lg:w-32 shadow  text-center rounded-lg ">
         <div className="w-full drop-shadow-xl lg:grid lg:place-items-center h-1/2 rounded-t-lg ">
           <Image

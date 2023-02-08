@@ -1,6 +1,6 @@
 const products = () => {
     return (
-        <section>
+        <section className="">
             Enter
         </section>
     );
