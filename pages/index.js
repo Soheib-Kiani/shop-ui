@@ -4,6 +4,7 @@ import Carousel from '@/components/carousel';
 import Category from '@/components/category';
 import Brande from '@/components/brand';
 import Products from '@/components/products';
+import MostSale from '@/components/mostsale';
 
 export default function Home() {
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Category />
       <Brande />
       <Products />
+      <MostSale />
     </Layout>
   );
 }
