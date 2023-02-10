@@ -11,7 +11,7 @@ const mostsale = () => {
           src="/icon/fire.png"
         />
       </div>
-      <div className="grid grid-cols-4 mt-2 shadow-lg rounded-lg ">
+      <div className="grid grid-cols-4 place-items-center mt-2 shadow-lg rounded-lg ">
         <div className="h-auto w-auto md:w-44 lg:w-56">
           <div className="p-1 h-3/4 md:p-2  md:grid md:place-items-center">
             <img
