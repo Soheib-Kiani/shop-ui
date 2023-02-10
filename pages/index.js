@@ -5,6 +5,7 @@ import Category from '@/components/category';
 import Brande from '@/components/brand';
 import Products from '@/components/products';
 import MostSale from '@/components/mostsale';
+import OFF from '@/components/off';
 
 export default function Home() {
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Brande />
       <Products />
       <MostSale />
+      <OFF />
     </Layout>
   );
 }
