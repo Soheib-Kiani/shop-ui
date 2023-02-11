@@ -5,7 +5,7 @@ const mostsale = () => {
       <div className=" mt-4 flex justify-center items-center    text-xs md:text-base lg:text-xl font-semibold">
         <p> پروفروش ترین محصولات</p>
         <img
-          className="w-5 h-5 lg:w-10 lg:h-10"
+          className="w-5 h-5 lg:w-8 lg:h-8"
           loading="lazy"
           alt="category-picture"
           src="/icon/fire.png"
