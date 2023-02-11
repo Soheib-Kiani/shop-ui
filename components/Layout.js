@@ -134,8 +134,55 @@ export default function Layout({ title, children }) {
         {/* Body */}
         <main className=" flex-grow ">{children}</main>
         {/* Footer */}
-        <footer className="flex bg-red-500 bottom-0 h-10 justify-center items-center shadow-inner">
-          <p>Copyright © 2023 IO-TEAM</p>
+        <footer className=" bg-gray-300 bottom-0 h-auto  shadow-inner">
+          <div className="flex justify-around mx-5">
+            <div className=" w-1/2 h-full text-[11px]  mt-3  text-center">
+              <p className="text-[11px]text-center">
+                ما را در شبکه ها یاجتماعی دنبال کنید
+              </p>
+              <div className="flex justify-between p-2">
+                <div>
+                  <img
+                    className="w-5 h-5 lg:w-8 lg:h-8 object-cover"
+                    loading="lazy"
+                    alt="category-picture"
+                    src="/icon/instagram.png"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="w-5 h-5 lg:w-8 lg:h-8 object-cover"
+                    loading="lazy"
+                    alt="category-picture"
+                    src="/icon/linkedin.png"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="w-5 h-5 lg:w-8 lg:h-8 object-cover"
+                    loading="lazy"
+                    alt="category-picture"
+                    src="/icon/github.png"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="w-5 h-5 lg:w-8 lg:h-8 object-cover"
+                    loading="lazy"
+                    alt="category-picture"
+                    src="/icon/youtube.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div dir="rtl" className="w-1/2 h-full">
+              <p className="font-bold text-red-600">IOShop</p>
+              <p className="text-[10px]">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              </p>
+            </div>
+          </div>
         </footer>
       </div>
     </>
