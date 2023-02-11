@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 const off = () => {
   return (
-    <section className="max-w-sm mt-2 md:max-w-2xl lg:max-w-7xl m-auto">
+    <section className="max-w-sm mt-2 mb-3 md:max-w-2xl lg:max-w-7xl m-auto">
       <div className=" mt-4 flex justify-center items-center    text-xs md:text-base lg:text-xl font-semibold">
         <p>تخفیفات ویژه</p>
         <img
