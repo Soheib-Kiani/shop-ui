@@ -135,12 +135,12 @@ export default function Layout({ title, children }) {
         <main className=" flex-grow ">{children}</main>
         {/* Footer */}
         <footer className=" bg-gray-300 bottom-0 h-auto  shadow-inner">
-          <div className="flex justify-around mx-5">
-            <div className=" w-1/2 h-full text-[11px]  mt-3  text-center">
-              <p className="text-[11px]text-center">
+          <div className="flex items-center justify-center mx-5">
+            <div className=" w-1/2 h-full grid place-items-center text-[11px]   text-center">
+              <p className="text-[10px] md:text-base text-center">
                 ما را در شبکه ها یاجتماعی دنبال کنید
               </p>
-              <div className="flex justify-between p-2">
+              <div className="flex gap-x-7 mt-2">
                 <div>
                   <img
                     className="w-5 h-5 lg:w-8 lg:h-8 object-cover"
@@ -175,11 +175,14 @@ export default function Layout({ title, children }) {
                 </div>
               </div>
             </div>
-            <div dir="rtl" className="w-1/2 h-full">
+            <div dir="rtl" className="w-1/2  h-full">
               <p className="font-bold text-red-600">IOShop</p>
-              <p className="text-[10px]">
+              <p className="text-[10px] md:text-sm lg:text-base">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
                 استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+               
               </p>
             </div>
           </div>
